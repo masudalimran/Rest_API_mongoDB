@@ -19,7 +19,7 @@ posts.get('/all', async (req, res)=> {
 
 
 // Submits a post
-posts.post('/', async (req,res)=>{
+posts.post('/addPost', async (req,res)=>{
     // console.log(req.body);
     const demoPost = new demo1({
         title : req.body.title,
