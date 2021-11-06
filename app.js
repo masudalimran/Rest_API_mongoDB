@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const bodyParser = require('body-parser')
 require('dotenv/config')
 const port = 5500;
 
@@ -13,7 +14,7 @@ const error_route = require("./routes/404");
 
 //static assets
 app.use(express.static("./public"));
-
+app.use(bodyParser.json());
 
 // TODO Routes
 app.use("/", home_route);
