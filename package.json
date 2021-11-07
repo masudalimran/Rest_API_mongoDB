@@ -1,6 +1,6 @@
 {
   "name": "rest_api_mongodb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Learning Mongo DB",
   "main": "app.js",
   "scripts": {
