@@ -17,4 +17,4 @@ const demo1Schema = mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('Demo1', demo1Schema)
+module.exports = mongoose.model('demo_posts_collection', demo1Schema)
